@@ -49,7 +49,7 @@ The script will create a `downloads` folder on the project's root and place the 
 
 Next step is create a simple `playlist.txt` inside `downloads` folder with song's name and the time that starts each song in the video. The video description usually has this information.
 
-format the text on ``playlist.txt` as bellow:
+format the text on `playlist.txt` as bellow:
 ```
 00:00 = Artist's name - song's name
 04:55 = Artist's name - song's name
@@ -94,10 +94,10 @@ usage: download.py [-h] -i URL [-p] [-o FOLDER]
 Download audio file from Youtube videos        
 
 optional arguments:
-  -h, --help               show this help message and exit
-  -i [URL]                 URL from the video that you want extract audio.
-  -p, --playlist           Indicates that the URL is a playlist. The program will download audio of each video in the playlist.
-  -o [FOLDER]              Create a Folder with the specified name and save the audio files in it.
+  -h, --help              show this help message and exit
+  -i [URL]                URL from the video that you want extract audio.
+  -p, --playlist          Indicates that the URL is a playlist. It will download each audio in the playlist.
+  -o [FOLDER]             Create a Folder with the specified name and save the audio files in it.
 ```
 
 ## Splitter arguments
@@ -115,11 +115,11 @@ usage: splitter.py [-h] -i AUDIO_FILE -l PLAYLIST_FILE [-o DEST_FOLDER] [-I]
 Split audio file into multiple files
 
 optional arguments:
-  -h, --help                show this help message and exit
-  -i [AUDIO_FILE]             input audio file that you wanna split. It needs to be inside Downloads Folder.
-  -l [PLAYLIST_FILE]          text file with songs name and duration. It needs to be inside Downloads Folder.
-  -o [DEST_FOLDER]            Folder's name to save the songs. By default will be the audio file name.
-  -I, --include-index       Indicates that you want the program to insert the track number in filename.
+  -h, --help               show this help message and exit
+  -i [AUDIO_FILE]          input audio file that you wanna split. It needs to be inside Downloads Folder.
+  -l [PLAYLIST_FILE]       text file with songs name and duration. It needs to be inside Downloads Folder.
+  -o [DEST_FOLDER]         Folder's name to save the songs. By default will be the audio file name.
+  -I, --include-index      Indicates that you want the program to insert the track number in filename.
 ```
 
 # COPYRIGHT
