@@ -1,0 +1,9 @@
+# VSCode
+.vscode/
+venv/
+
+# That folder will created automatically if it not exists
+downloads/
+
+# youtube-dl project
+youtube-dl/
