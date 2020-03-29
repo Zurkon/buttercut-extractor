@@ -14,7 +14,7 @@ The idea behind of **Buttercut-extrator** project was to create a program to dow
 First of all this project have dependencies on [youtube-dl](https://github.com/ytdl-org/youtube-dl) and [FFMPEG](https://www.ffmpeg.org/download.html) . You can either install them on your machine or just put them here inside this folder.
 
 Make sure that you have Python installed on your machine:
-> Python version: 3.7.6 or above
+* Python version: 3.7.6 or above
 
 ## Setup inside this folder
 Placing the dependencies inside that project's folder makes it more portable and can be easily executed on other machines.
