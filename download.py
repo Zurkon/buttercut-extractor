@@ -55,7 +55,7 @@ if not simulado:
                 os.mkdir(f"{download_path}/{folder_name}")
                 
             download_path = download_path + "/" + folder_name
-            print(download_path)
+            #print(download_path)
 
         os.system(
             f'python -m youtube_dl --yes-playlist --add-metadata --extract-audio --audio-format mp3 --audio-quality 0 -o "{download_path}/%(title)s.%(ext)s" {URL}'
